@@ -1,0 +1,110 @@
+html,
+body {
+  font-family: 'Roboto';
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+/* get the required local files */
+@font-face {
+  font-family: 'Roboto';
+  src: url('assets/fonts/Roboto-Bold.eot'); /* IE9 Compat Modes */
+  src: url('assets/fonts/Roboto-Bold.eot') format('embedded-opentype'),
+    /* IE6-IE8 */ url('assets/fonts/Roboto-Bold.woff') format('woff'),
+    /* Modern Browsers */ url('assets/fonts/Roboto-Bold.ttf') format('truetype'),
+    /* Safari, Android, iOS */ url('assets/fonts/Roboto-Bold.svg') format('svg'); /* Legacy iOS */
+}
+
+#root {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.clock {
+  font-size: 9em;
+  line-height: normal;
+  color: #ffffff;
+}
+
+.rounds {
+  color: #ffffff;
+}
+
+.button {
+  width: 120px;
+  padding: 30px;
+  font-size: 44px;
+  color: #c0392b;
+}
+
+button:focus,
+button:hover {
+  border: none;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.timer-info span {
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-right: 15px;
+}
+
+@media only screen and (max-width: 980px) {
+  .timer-info {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .clock {
+    font-size: 16em;
+  }
+}
+
+@media only screen and (min-width: 980px) {
+  .rounds {
+    font-size: 2em;
+  }
+  .clock {
+    font-size: 22em;
+  }
+}
+
+@media only screen and (min-width: 1070px) {
+  .clock {
+    font-size: 26em;
+  }
+}
+
+@media only screen and (min-width: 1160px) {
+  .clock {
+    font-size: 28em;
+  }
+}
+
+@media only screen and (min-width: 1240px) {
+  .clock {
+    font-size: 30em;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .rounds {
+    font-size: 4em;
+  }
+  .clock {
+    font-size: 34em;
+  }
+}
