@@ -1,6 +1,6 @@
 html,
 body {
-  font-family: 'Roboto';
+  font-family: 'Funnel Display Bold';
   -webkit-user-select: none; /* Safari */
   -ms-user-select: none; /* IE 10 and IE 11 */
   user-select: none; /* Standard syntax */
@@ -8,12 +8,12 @@ body {
 
 /* get the required local files */
 @font-face {
-  font-family: 'Roboto';
-  src: url('assets/fonts/Roboto-Bold.eot'); /* IE9 Compat Modes */
-  src: url('assets/fonts/Roboto-Bold.eot') format('embedded-opentype'),
-    /* IE6-IE8 */ url('assets/fonts/Roboto-Bold.woff') format('woff'),
-    /* Modern Browsers */ url('assets/fonts/Roboto-Bold.ttf') format('truetype'),
-    /* Safari, Android, iOS */ url('assets/fonts/Roboto-Bold.svg') format('svg'); /* Legacy iOS */
+  font-family: 'Funnel Display Bold';
+
+  src: url('assets/fonts/FunnelDisplay-Bold.otf') format('opentype')
+      /* IE6-IE8 */ url('assets/fonts/FunnelDisplay-Bold.woff2') format('woff2'),
+    /* Modern Browsers */ url('assets/fonts/FunnelDisplay-Bold.ttf')
+      format('truetype');
 }
 
 #root {

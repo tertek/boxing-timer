@@ -8,7 +8,7 @@ const Clock = ({ isPrep, isPause, time, rounds }) => {
         <span>ROUND {rounds}</span>
       </div>
       <div className="clock">
-        <span>{isPrep ? secondsWithZero(time) : secondsToMinutes(time)}</span>
+        {isPrep ? secondsWithZero(time) : secondsToMinutes(time)}
       </div>
     </>
   );
