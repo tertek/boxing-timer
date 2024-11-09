@@ -129,13 +129,8 @@ function App() {
 
   return (
     <>
-      <div className="timer-info">
-        <span>Ready: {timer.prepTime - 1}</span>
-        <span>Train: {timer.trainingTime}</span>
-        <span>Rest: {timer.pauseTime}</span>
-      </div>
       <Clock isPause={isPause} isPrep={isPrep} rounds={rounds} time={time} />
-      <div className="card">
+      <div className="control">
         <button className="button" {...longPressEvent}>
           {stopped ? (
             <FontAwesomeIcon icon={faPlay} />

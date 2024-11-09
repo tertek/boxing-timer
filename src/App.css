@@ -21,8 +21,16 @@ body {
   text-align: center;
 }
 
+.clock-header {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 50px;
+  left: 0;
+}
+
 .clock {
-  font-size: 9em;
+  font-size: 11em;
   line-height: normal;
   color: #ffffff;
 }
@@ -51,8 +59,13 @@ button:hover {
   }
 }
 
-.card {
-  padding: 2em;
+.control {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  bottom: 50px;
+  left: 0;
+  width: 100%;
 }
 
 .timer-info span {
@@ -69,7 +82,7 @@ button:hover {
 
 @media only screen and (min-width: 768px) {
   .clock {
-    font-size: 16em;
+    font-size: 18em;
   }
 }
 
@@ -96,15 +109,24 @@ button:hover {
 
 @media only screen and (min-width: 1240px) {
   .clock {
-    font-size: 30em;
+    font-size: 32em;
   }
 }
 
-@media only screen and (min-width: 1400px) {
+@media only screen and (min-width: 1600px) {
   .rounds {
-    font-size: 4em;
+    font-size: 8em;
   }
   .clock {
-    font-size: 34em;
+    font-size: 38em;
+  }
+}
+
+@media only screen and (min-width: 1900px) {
+  .rounds {
+    font-size: 8em;
+  }
+  .clock {
+    font-size: 46em;
   }
 }
